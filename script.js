@@ -47,7 +47,7 @@ async function getOne(id) {
   return result;
 }
 
-async function fetchAndRenderBook(innerHTML, item) {
+async function fetchAndRenderBook(innerHTML) {
 
 for (let i = 1; i <= bookList.length; i++) {
   const book = await getOne(i);
